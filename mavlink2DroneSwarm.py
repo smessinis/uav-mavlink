@@ -1,3 +1,11 @@
+# This code uses the pymavlink library to establish a connection with both drones and send MAVLink commands to control their movement. 
+# The while loop runs continuously, getting the current position of the first drone and sending a set_position_target_global_int command 
+# to the second drone to make it follow the first drone. The time.sleep(0.1) statement is used to wait for a short time between getting the 
+# position of the first drone and sending the command to the second drone, to avoid overwhelming the connection.
+# Note that this code assumes that both drones are running the ArduPilot firmware and are connected to your computer via UDP at the 
+# IP addresses 127.0.0.1:14550 and 127.0.0.1:14551. 
+
+
 import time
 from pymavlink import mavutil
 
