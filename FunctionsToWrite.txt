@@ -1,0 +1,10 @@
+    takeoff(altitude) - a function that takes an altitude parameter and instructs the UAV to take off to that altitude.
+    fly_to_location(location) - a function that takes a GPS location parameter and instructs the UAV to fly to that location.
+    survey_area(area) - a function that takes a GPS area parameter and instructs the UAV to fly a grid pattern over the area, taking pictures or performing other actions at set intervals.
+    land() - a function that instructs the UAV to land at its current location.
+    return_to_home() - a function that instructs the UAV to return to its home location and land.
+    check_battery_level() - a function that checks the current battery level of the UAV and alerts the user if the level is low.
+    take_picture() - a function that triggers the UAV's camera to take a picture.
+    stream_video() - a function that streams live video from the UAV's camera to a ground station.
+    send_message(message) - a function that sends a message from the UAV to a ground station or other UAV.
+    avoid_obstacle() - a function that uses the UAV's sensors to detect and avoid obstacles during flight.
